@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>BlogSphere | Create Blog</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header class="navbar"><a href="index.html" class="logo">Blog<span>Sphere</span></a><nav><a href="index.html">Home</a><a href="dashboard.html">Dashboard</a></nav></header>
+<main class="editor-page"><form class="editor-card" id="blogForm"><p class="eyebrow">CREATE CONTENT</p><h1>Write a New Blog</h1><p class="muted">Share something useful, interesting, or inspiring.</p>
+<label>Blog Title</label><input id="blogTitle" type="text" placeholder="Enter your blog title" required>
+<label>Cover Image URL</label><input id="blogImage" type="url" placeholder="https://example.com/image.jpg">
+<label>Category</label><select id="blogCategory"><option>Technology</option><option>Web Development</option><option>AI</option><option>Lifestyle</option><option>Education</option></select>
+<label>Content</label><textarea id="blogContent" rows="12" placeholder="Write your story here..." required></textarea>
+<div class="editor-actions"><button type="button" class="btn secondary" id="saveDraft">Save Draft</button><button type="submit" class="btn primary">Publish Blog</button></div>
+<p id="blogMessage" class="form-message"></p></form></main><script src="js/script.js"></script></body></html>

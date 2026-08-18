@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlogSphere | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">Blog<span>Sphere</span></a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <nav id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="#blogs">Explore</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="create-blog.html" class="nav-btn">Create Blog</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">WRITE • READ • INSPIRE</p>
+        <h1>Discover ideas.<br><span>Share your story.</span></h1>
+
+<p class="hero-tagline">
+    Where Ideas Find Their Voice.
+</p>
+        <p>Read thoughtful stories and publish your own ideas with a simple, modern blogging experience.</p>
+        <div class="hero-actions">
+          <a href="#blogs" class="btn primary">Start Reading</a>
+          <a href="create-blog.html" class="btn secondary">Write a Blog</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1000&q=80" alt="Person writing a blog">
+      </div>
+    </section>
+
+    <section class="section" id="blogs">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">EXPLORE</p>
+          <h2>Featured Blogs</h2>
+        </div>
+        <input id="searchInput" class="search" type="search" placeholder="Search blogs...">
+      </div>
+      <div id="blogGrid" class="blog-grid"></div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Have a story to tell?</h2>
+      <p>Turn your ideas into a blog and share them with the world.</p>
+      <a href="create-blog.html" class="btn primary">Create Your Blog</a>
+    </section>
+  </main>
+
+  <footer>© 2026 BlogSphere • Built with HTML, CSS & JavaScript</footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

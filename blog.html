@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlogSphere | Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .blog-detail {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    .blog-detail img {
+      width: 100%;
+      height: 430px;
+      object-fit: cover;
+      border-radius: 28px;
+      margin: 25px 0 30px;
+      box-shadow: 0 25px 60px rgba(42,36,100,.15);
+    }
+    .blog-detail h1 {
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      line-height: 1.1;
+      margin: 12px 0;
+      letter-spacing: -1.5px;
+    }
+    .blog-detail-content {
+      color: #4b5563;
+      font-size: 1.08rem;
+      line-height: 1.9;
+      white-space: pre-line;
+    }
+    .back-link {
+      display: inline-block;
+      color: #6c63ff;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+    .blog-meta {
+      color: #718096;
+      margin-bottom: 10px;
+    }
+    @media(max-width:680px) {
+      .blog-detail { margin: 35px auto; }
+      .blog-detail img { height: 250px; border-radius: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">Blog<span>Sphere</span></a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <nav id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="index.html#blogs">Explore</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="create-blog.html" class="nav-btn">Create Blog</a>
+    </nav>
+  </header>
+
+  <main id="blogDetail" class="blog-detail"></main>
+
+  <footer>© 2026 BlogSphere</footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
